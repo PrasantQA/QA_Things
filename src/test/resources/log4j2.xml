@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+
+    <!-- Define Log Patterns -->
+    <Properties>
+        <Property name="logPattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} - %msg%n</Property>
+        <Property name="errorPattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c{1} [%F:%L] - %msg%n</Property>
+        <Property name="logDir">./logs</Property>
+    </Properties>
+
+    <Appenders>
+
+        <!-- Console Appender: Logs to Console with Colors -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>
+                    %style{%d{yyyy-MM-dd HH:mm:ss}}{cyan} %style{[%t]}{yellow} %highlight{%-5level} %style{%c{1}}{blue} - %msg%n
+                </Pattern>
+            </PatternLayout>
+        </Console>
+
+        <!-- Rolling File Appender: Logs API execution -->
+        <RollingFile name="RollingFile" fileName="${logDir}/api-test.log"
+                     filePattern="${logDir}/api-test-%d{yyyy-MM-dd-HH}.log.gz">
+            <PatternLayout>
+                <Pattern>${logPattern}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+
+        <!-- Separate File Appender for API Errors -->
+        <RollingFile name="ErrorLog" fileName="${logDir}/api-errors.log"
+                     filePattern="${logDir}/api-errors-%d{yyyy-MM-dd}.log.gz">
+            <PatternLayout>
+                <Pattern>${errorPattern}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="5MB"/>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+            <DefaultRolloverStrategy max="5"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+        <!-- Logger for API Errors (4xx, 5xx) -->
+        <Logger name="API_ERROR" level="ERROR" additivity="true">
+            <AppenderRef ref="ErrorLog"/>
+        </Logger>
+
+        <!-- Logger for Rest Assured API Logs -->
+        <Logger name="io.restassured" level="DEBUG" additivity="true">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <!-- Logger for Test Execution -->
+        <Logger name="org.testng" level="INFO" additivity="true">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <Logger name="cucumber.api" level="INFO" additivity="false">
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <!-- Root Logger -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+            <AppenderRef ref="ErrorLog"/>  <!-- Ensures Errors Are Captured in Root Logger -->
+        </Root>
+    </Loggers>
+
+</Configuration>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="10" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-11T22:02:47 IST" name="PetSuite" finished-at="2025-03-11T22:03:15 IST" duration-ms="27583">
+    <groups>
+    </groups>
+    <test started-at="2025-03-11T22:02:47 IST" name="PetTest" finished-at="2025-03-11T22:03:15 IST" duration-ms="27583">
+      <class name="api.test.UserDDTests">
+        <test-method is-config="true" signature="setupLogs()[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:02:47 IST" name="setupLogs" finished-at="2025-03-11T22:02:48 IST" duration-ms="913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupLogs -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:02:51 IST" name="testPostUser" data-provider="data" finished-at="2025-03-11T22:02:56 IST" duration-ms="4597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[343521]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[prasant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[prasant]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[hdhgdhd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[735498612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:02:56 IST" name="testPostUser" data-provider="data" finished-at="2025-03-11T22:02:57 IST" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34356]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harika]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[harika]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc1@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[dnndd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[735498612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:02:57 IST" name="testPostUser" data-provider="data" finished-at="2025-03-11T22:02:58 IST" duration-ms="1445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[34532]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sweety]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sweety]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc2@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[db1dbd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[735498612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:02:58 IST" name="testPostUser" data-provider="data" finished-at="2025-03-11T22:03:00 IST" duration-ms="1525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[343345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vasu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vasu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc3@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[db2dbd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[735498612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:00 IST" name="testPostUser" data-provider="data" finished-at="2025-03-11T22:03:02 IST" duration-ms="1783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4423345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prasanna]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prasanna]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc11@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[db3dbd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[735498612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:02 IST" name="testPostUser" data-provider="data" finished-at="2025-03-11T22:03:03 IST" duration-ms="1433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2442345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vanaja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vanaja]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc22@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[db4dbd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[735498612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:03 IST" name="testPostUser" data-provider="data" finished-at="2025-03-11T22:03:05 IST" duration-ms="1404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45622345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Param]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Param]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Family]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[abc32@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[db5dbd]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[735498612]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testDelUser(java.lang.String)[pri:1, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:05 IST" name="testDelUser" data-provider="username" finished-at="2025-03-11T22:03:06 IST" duration-ms="1441" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasant]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.test.UserDDTests.testDelUser(UserDDTests.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelUser -->
+        <test-method signature="testDelUser(java.lang.String)[pri:1, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:06 IST" name="testDelUser" data-provider="username" finished-at="2025-03-11T22:03:08 IST" duration-ms="1351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harika]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelUser -->
+        <test-method signature="testDelUser(java.lang.String)[pri:1, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:08 IST" name="testDelUser" data-provider="username" finished-at="2025-03-11T22:03:09 IST" duration-ms="1375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sweety]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelUser -->
+        <test-method signature="testDelUser(java.lang.String)[pri:1, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:09 IST" name="testDelUser" data-provider="username" finished-at="2025-03-11T22:03:10 IST" duration-ms="1363" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vasu]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.test.UserDDTests.testDelUser(UserDDTests.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelUser -->
+        <test-method signature="testDelUser(java.lang.String)[pri:1, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:10 IST" name="testDelUser" data-provider="username" finished-at="2025-03-11T22:03:12 IST" duration-ms="1359" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Prasanna]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.test.UserDDTests.testDelUser(UserDDTests.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelUser -->
+        <test-method signature="testDelUser(java.lang.String)[pri:1, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:12 IST" name="testDelUser" data-provider="username" finished-at="2025-03-11T22:03:13 IST" duration-ms="1363" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vanaja]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [404]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [404]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:1418)
+at org.testng.Assert.assertEquals(Assert.java:1382)
+at org.testng.Assert.assertEquals(Assert.java:1428)
+at api.test.UserDDTests.testDelUser(UserDDTests.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelUser -->
+        <test-method signature="testDelUser(java.lang.String)[pri:1, instance:api.test.UserDDTests@1fa121e2]" started-at="2025-03-11T22:03:13 IST" name="testDelUser" data-provider="username" finished-at="2025-03-11T22:03:15 IST" duration-ms="1360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Param]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDelUser -->
+      </class> <!-- api.test.UserDDTests -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetSuite -->
+</testng-results>
